@@ -1,0 +1,163 @@
+#chargePage {
+	width:100%;
+	background: #efefef;
+}
+#chargePage input[type=tel],#chargePage input[type=text]{
+	border:0;
+	width:50%;
+	background-color: #fff;
+	color:#030303;
+}
+#chargePage #testCode{
+	width:40%;
+	display: inline-block;
+	height: 95%;
+}
+#chargePage .box{
+	width:100%;
+	height:100%;
+	padding-top:0.32rem
+}
+#chargePage a{
+	display: block;
+}
+#chargePage #recharge .item-icon.icon-money {
+	background:url("../../images/charge/recharge-money.png") no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+#chargePage #recharge .item-icon.icon-id-card {
+	background:url("../../images/charge/recharge-idcard.png") no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+#chargePage #recharge .item-icon.icon-test-code {
+	background:url("../../images/charge/recharge-testcode.png") no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+#chargePage #recharge .item-icon.icon-card {
+	background:url("../../images/charge/recharge-card.png") no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+
+#recharge li span.title{
+	display:inline-block;
+}
+#chargePage input::-webkit-input-placeholder{
+	color: #d8d8d8;
+}
+#chargePage input::-moz-placeholder{
+	color: #d8d8d8;
+}
+#chargePage input:-ms-input-placeholder{
+	color: #d8d8d8;
+}
+#chargePage .next_btn {
+	width:9.2rem;
+	height:1.17333rem;
+	line-height: 1.17333rem;
+	background-color:#ccc;
+	text-align: center;
+	margin:0 auto;
+	margin-top:2.13333rem;
+	border-radius:2px;
+}
+#chargePage .next_btn {
+	color: #fff;
+}
+#chargePage .btn-active{
+	background-color:#4a90e2;
+}
+#chargePage #getTestCode{
+	color: #4a90e2;
+	display: inline-block;
+	border: 0;
+	width: 24%;
+	background: #fff;
+	height: 80%;
+	text-align:left;
+}
+#chargePage p.error-msg{
+	color: #F75C4C;
+	padding-left: 3.52rem;
+	padding-top:0.1rem;
+	padding-bottom:0.1rem;
+}
+#chargePage .charge-page-mask{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	z-index: 9;
+}
+#chargePage .charge-page-mask div.modal{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 7.2rem;
+	height: 4.8rem;
+	margin: -2.4rem 0 0 -3.6rem;
+	background: #fff;
+	border-radius: 8px;
+	text-align: center;
+	z-index: 11;
+	overflow: hidden;
+}
+#chargePage .charge-page-mask .test-modal-box{
+	height: 100%;
+	position: relative;
+	padding: 0 0.453333333rem;
+}
+#chargePage .charge-page-mask .test-modal-box p{
+	padding-top: 0.56rem;
+	padding-bottom: 8%;
+	color: #030303;
+}
+#chargePage div.test-code div.fl{
+	width:36%;
+	height:1.2rem;
+}
+#chargePage div.test-code div.fl img.img-test-code{
+	width:100%;
+	height:100%;
+}
+#chargePage div.test-code div.fr{
+	width:56%;
+	height:1.2rem;
+	line-height: 1.2rem;
+}
+#chargePage div.test-code div.fr input{
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 6px;
+	width: 100%;
+	box-sizing: border-box;
+        border-radius: .0533333rem;
+}
+#chargePage .charge-page-mask .charge-money-btn{
+	height: 1.1733333rem;
+	line-height: 1.17333333rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 1px solid #efefef;
+}
+#chargePage .charge-page-mask .charge-money-btn div.fl,#chargePage .charge-page-mask .charge-money-btn div.fr{
+	color: #4a90e2;
+	width: 50%;
+}
+#chargePage .charge-page-mask .charge-money-btn div.fl{
+	border-right: 1px solid #efefef;
+	box-sizing: border-box;
+}
+#chargePage .input-hidden{
+	display:none
+}
+#chargePage #userName,#chargePage #telNum,#chargePage #idNum,#chargePage #cardNum{
+	display:inline-block;
+	height:95%;
+}
+

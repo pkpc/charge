@@ -1,0 +1,372 @@
+a,button,input,textarea,div,span{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.mask {
+	background: rgba(0,0,0,0);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+}
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1.8rem;
+	height: 1.8rem;
+	margin: -.9rem 0 0 -.9rem;
+	background: rgba(0,0,0,0.7);
+	border-radius: .13333333rem;
+	text-align: center;
+	z-index: 11;
+	animation-duration: 0s!important;
+	box-shadow: none!important;
+}
+.loading::after {
+	display: block;
+	content: " ";
+	width: 1.066666rem;
+	height: 1.066666rem;
+	margin: .32rem auto 0;
+	background: url(../../images/charge/loading.png) center no-repeat;
+	background-size: 1rem auto;
+	-webkit-animation: spin 1s steps(8) infinite;
+	animation: spin 1s steps(12) infinite;
+}
+#top{
+	background: #4a90e2;
+	height:5.013333333rem;
+}
+#restMoney{
+	color: #fff;
+	margin:0 auto;
+	margin-top:1.0666666rem;
+	position:relative;
+	left:.4rem;
+}
+
+#top .coinIcon{
+	height:1.04rem;
+	width:1.04rem;
+	margin-right:0.3733333rem;
+	position: absolute;
+	top: 119px;
+	left: 110px;
+}
+#chargePage{
+	width:100%;
+	display:inline-block;
+}
+.round_btn{
+	background:url("../../images/charge/round-btn.png") no-repeat;
+	overflow: hidden;
+	width:4.64rem;
+	height: 0.906666rem;
+	line-height: 0.906666rem;
+	background-size:cover;
+	margin:0 auto;
+	margin-top:0.56rem;
+
+}
+ul.accountSys li{
+	height:1.173333rem;
+	line-height:1.173333rem ;
+	background: #fff;
+	position:relative;
+}
+ul.accountSys li img.title{
+	width:0.5333333rem;
+	height:0.5333333rem;
+	margin-left:0.32rem;
+	margin-right:0.4266666rem;
+	vertical-align: middle;
+}
+.mt-12{
+	margin-top:0.32rem
+}
+/*ul.accountSys li:nth-child(2),ul.accountSys li:nth-child(7){*/
+	/*margin-bottom:0.32rem*/
+/*}*/
+a.arrow{
+	width:0.37333333rem;
+	height:0.37333333rem;
+	display: block;
+	float: right;
+}
+a.arrow img{
+	width:0.37333333rem;
+	height:0.37333333rem;
+	position: absolute;
+	right: 0.2133333rem;
+	top: 0.4rem;
+}
+hr{
+	border-top: 1px solid #e2e2e2;
+	border-bottom:0px;
+	width:87%;
+	position:absolute;
+	right:0;
+	z-index:3;
+}
+.people{
+	margin-right:0.4rem;
+}
+.people,#allpeople{
+	color: #8f8e94;
+}
+.day{
+	margin-right:0.4rem;
+}
+.day,#restTime,#adminNum{
+	color: #8f8e94;
+}
+a.arrow{
+	width: 0.2133333rem;
+	display: block;
+	float: right;
+}
+a.arrow img{
+	width: 0.21333333333rem;
+	position: absolute;
+	right: 0.4rem;
+	top: 0.4rem;
+}
+#pimg{
+	margin-top:-0.52rem;
+	margin-left:-1rem;
+}
+div.message-modal {
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 46.5%;
+	width: 3.68rem;
+	height: 3.44rem;
+	line-height: 1.43999999rem;
+	margin: -.74666666rem 0 0 -1.4933333rem;
+	background: rgba(0,0,0,.7);
+	border-radius: 8px;
+	text-align: center;
+	z-index: 99;
+	padding: 0 0.2rem;
+}
+[data-dpr="3"] div.message-modal span img{
+	width: 35%;
+}
+div.message-modal span img{
+	width: 35%;
+}
+div.message-modal span {
+	color:#fff;
+	vertical-align: middle;
+}
+div.message-modal span p{
+	padding-top: 0.3rem;
+	line-height: 0.5rem;
+}
+div.message-modal img {
+	color:#fff;
+	display: inline-block;
+	vertical-align: text-top;
+}
+/*公共样式 开始*/
+.next_btn {
+	width: 9.2rem;
+	height: 1.17333rem;
+	line-height: 1.17333rem;
+	background-color: #ccc;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2.13333rem;
+	border-radius: 2px;
+	color: #fff;
+}
+.btn-active {
+	background-color: #4a90e2;
+}
+.next_btn a{
+	color: #fff;
+	display: block;
+}
+img.charge-note {
+	width: 12px;
+}
+[data-dpr="2"] img.charge-note {
+	width: 24px;
+}
+[data-dpr="3"] img.charge-note {
+	width: 36px;
+}
+.note-modal {
+	box-sizing: border-box;
+	padding-top: .586666666rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding-left: .1rem;
+	padding-right: .1rem;
+	width: 4.16rem;
+	height: 3.173333333rem;
+	margin: -1.5866666rem 0 0 -2.08rem;
+	background: rgba(0,0,0,.7);
+	border-radius: 8px;
+	text-align: center;
+	z-index: 11;
+	overflow: hidden;
+}
+.note-modal p {
+	color: #fff;
+	padding-top: .4266666rem;
+}
+div.note-modal img {
+	width: 1.1733333rem;
+}
+/*公共样式 结束*/
+/*充值和转账 公共样式*/
+#chargePage #recharge,#account-transfer-page2 #account-input {
+	background: #fff;
+}
+#chargePage #recharge li,#account-transfer-page2 #account-input li,#account-transfer-page3 div.transfer-item {
+	position:relative;
+	left:0.32rem;
+	line-height:1.17333rem;
+	height:1.17333rem;
+	width:100%;
+	border-bottom:1px solid #e2e2e2;
+}
+#account-transfer-page3 div.transfer-item {
+	border-bottom:0;
+	background: #fff;
+	left: 0;
+	padding-left: .32rem;
+}
+#account-transfer-page3 div.transfer-item:nth-child(2){
+	border-bottom: 1px solid #e2e2e2;
+}
+#account-transfer-page3 div.transfer-item:nth-child(3){
+	border-bottom: 1px solid #e2e2e2;
+}
+#account-transfer-page3 div.transfer-item:nth-child(4){
+	margin-bottom: .32rem;
+}
+#chargePage #recharge .item-icon.icon-name,#account-transfer-page2 #account-input .item-icon.icon-name{
+	background:url("../../images/charge/recharge-name.png") no-repeat;
+	background-position:center;
+	background-size: cover;
+}
+#chargePage #recharge .item-icon.icon-phone,#account-transfer-page2 #account-input .item-icon.icon-phone {
+	background:url("../../images/charge/recharge-tel.png") no-repeat;
+	background-position:45%;
+	background-size: cover;
+}
+#recharge .item-icon,#account-input .item-icon,#account-transfer-page3 .item-icon {
+	display: inline-block;
+	height: .5333rem;
+	width: .5333rem;
+	vertical-align: middle;
+	margin-right:0.266666rem;
+
+}
+#recharge .box,#account-input .box,#account-transfer-page3 .box {
+	width: 3.2rem;
+	display: inline-block;
+	padding-top: 0;
+}
+/*充值和转账 公共样式*/
+/*搜索框样式 开始*/
+#search{
+	position: relative;
+	width: 100%;
+	padding: 0.2rem 0.16rem 0.25rem  0.16rem;
+	box-sizing: border-box;
+	border-bottom:1px solid #efefef;
+}
+#search img {
+	width:0.3466666rem;
+	height:0.3466666rem;
+	position:absolute;
+}
+
+#search .search-input{
+	display: block;
+	top: 0.16rem;
+	color: #333;
+	box-sizing: border-box;
+	background-color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	height: 0.8rem;
+	vertical-align: middle;
+	border-radius: 2px;
+	border:0;
+}
+#search div.icon-box{
+	height: 0.8rem;
+	position: absolute;
+	width: 100%;
+	line-height: 0.8rem;
+	text-align: center;
+	top: 0.2rem;
+	left: 0;
+}
+#search div.icon-box-active {
+	height: 0.8rem;
+	position: absolute;
+	line-height: 0.8rem;
+	padding-left: 0.4rem;
+	top: 0.2rem;
+	left: 0;
+	width:0;
+}
+#search input.search-input-active{
+	display: block;
+	top: 0.16rem;
+	color: #333;
+	background-color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	height: 0.8rem;
+	vertical-align: middle;
+	border:1px solid #efefef;
+	border-radius: 4px;
+	padding-left: 0.8266666666rem;
+}
+.icon-search{
+	display: inline-block;
+	width: 0.34666666rem;
+	height: .34666666rem;
+	margin-right: 6px;
+	background: url("../../images/charge/search-icon.png") no-repeat;
+	vertical-align: middle;
+	background-size: cover;
+}
+/*搜索框样式 结束*/
+.redFont{
+	color:red;
+	margin-right: 1rem;
+}
+.getAwayBelow{
+	margin-bottom: 0.32rem;
+}
+.getAwayUpper{
+	margin-top: 0.32rem;
+}
+#leftDaysBox{
+	display: none;
+}
+#leftDays{
+	margin-right: 0.4rem;
+}
+#packageDetail div.activated{
+	margin-right: 0.827rem;
+	background-color: #fff7bc;
+	border-radius:0.7rem;
+	padding: 0.1rem 0.3rem;
+	/*width:3.2rem;*/
+	text-align: center;
+	vertical-align:center;
+	height: 0.5rem;
+	margin-top: 0.22rem!important;
+	line-height:0.53rem;
+}
+.grey-color{
+	color:#8F8E94
+}

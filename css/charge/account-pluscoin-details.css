@@ -1,0 +1,117 @@
+@media screen and (max-device-width: 350px) {
+	#accountPluscoinDetailsPage .wrapper {
+		font-size:26px;
+	}
+}
+#accountPluscoinDetailsPage .base-bar span {
+	display: block;
+}
+#accountPluscoinDetailsPage .base-bar{
+  	    display: -webkit-flex;  /* 新版本语法: Chrome 21+ */
+	    display: flex;          /* 新版本语法: Opera 12.1, Firefox 22+ */
+	    display: -moz-box; /*Firefox*/
+	    display: -webkit-box; /*Safari,Opera,Chrome*/
+	    display: box;
+
+	    /* 12版 */
+	    -webkit-justify-content: space-between;
+	    justify-content: space-between;
+	    /* 12版 */
+      	    -webkit-align-items: center;
+	    align-items: center;
+	    /* 09版 */
+	    -moz-box-pack: justify; /*Firefox*/
+	    -webkit-box-pack: justify;  /*靠边均分*/
+	    box-pack: justify;
+	    -moz-box-align: center; /*Firefox*/
+	    -webkit-box-align: center; /*Safari,Opera,Chrome*/
+	    box-align: center;
+	    /* 09版 */  
+    	    -webkit-box-orient: horizontal;  
+    	    -webkit-box-direction: normal;
+    	    -ms-flex-pack: justify;
+	    
+	    height: 1.173rem;
+	    padding: 0 0.773rem;
+	    border-bottom: 1px solid #d8d8d8;
+}
+
+	.flex-item{
+		width: 100%;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -webkit-flex;
+		display: flex;
+		/* 09版 */
+		-webkit-box-pack: center;  /*靠边均分*/
+		-webkit-box-align:center;  /*垂直居中*/
+		/* 12版 */
+		-webkit-justify-content: center;
+		justify-content: center;
+		/* 12版 */
+		-webkit-align-items: center;
+		align-items: center;
+	}
+#accountPluscoinDetailsPage .base-bar:first-child{
+	border-top: 1px solid #d8d8d8;
+}
+
+#accountPluscoinDetailsPage img.pluscoin-status-bg{
+	width: 2.72rem;
+	height: 2.427rem;
+}
+.text-center{
+	text-align: center;
+}
+.fs_13{
+	font-size: 13px;
+}
+[data-dpr='2'] .fs_13{
+	font-size: 26px;
+}
+[data-dpr='3'] .fs_13{
+	font-size: 39px;
+}
+
+.fs_15{
+	font-size: 15px;
+}
+[data-dpr='2'] .fs_15{
+	font-size: 30px;
+}
+[data-dpr='3'] .fs_15{
+	font-size: 45px;
+}
+
+.fs_17{
+	font-size: 17px;
+}
+[data-dpr='2'] .fs_17{
+	font-size: 34px;
+}
+[data-dpr='3'] .fs_17{
+	font-size: 51px;
+}
+
+.fc_777{
+	color: #777;
+}
+.fc_999{
+	color: #999;
+}
+.fc_blue{
+	color: #4a90e2;
+}
+
+
+.mb10{
+	margin-bottom: 0.267rem;
+}
+.mb31{
+	margin-bottom: 0.827rem;
+}
+.mb106{
+	margin-bottom: 1.413rem;
+}
+.mt67{
+	margin-top: 1.787rem;
+}

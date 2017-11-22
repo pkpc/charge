@@ -1,0 +1,172 @@
+#account-transfer-page1,#account-transfer-page2,#account-transfer-page3 {
+    padding-top: .32rem;
+    box-sizing: border-box;
+}
+#account-transfer-page2 .content {
+    height: 100%;
+}
+
+#account-transfer-page1 .next_btn,#account-transfer-page2 .next_btn,#account-transfer-page3 .next_btn {
+    margin-top: 1.33333rem;
+    position:relative;
+}
+#account-transfer-page3 .next_btn_box {
+	position:relative;
+}
+#account-transfer-page1 .transfer-amount-item {
+    width: 100%;
+    line-height: 1.17333rem;
+    height: 1.17333rem;
+    box-sizing: border-box;
+    padding-left: 30px;
+    background-color: #fff;
+}
+#account-transfer-page1 .transfer-amount-item span.title {
+    margin-right: .4rem;
+}
+#account-transfer-page1 input,#account-transfer-page2 input,#account-transfer-page3 input {
+    display: inline-block;
+    height: 95%;
+    border: 0;
+    width: 50%;
+    background-color: #fff;
+    color: #030303;
+}
+#account-transfer-page3 .item-icon.icon-login-code {
+    background:url("../../images/charge/icon-login-code.png") no-repeat;
+    background-position:45%;
+    background-size: cover;
+}
+#account-transfer-page2 .item-icon.icon-select-company {
+    background:url("../../images/charge/icon-select-company.png") no-repeat;
+    background-position:45%;
+    background-size: cover;
+}
+#transfer-select-company {
+    -webkit-appearance: none;
+    display: inline-block;
+    height: 95%;
+    border: 0;
+    width: 63%;
+    background-color: #fff;
+    color: #030303;
+    outline:0;
+    border:0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#account-transfer-page2 #account-input li.select-company {
+    border-bottom: 0;
+}
+#account-transfer-page2 li.select-company .select-company-note {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color:rgba(0,0,0,0);
+    box-sizing: border-box;
+    padding-left: 3.2rem;
+    color: #b8b8b8;
+}
+#account-transfer-page2 li.select-company img.icon-select-down {
+    width: .26666rem;
+    position: absolute;
+    margin: auto 0;
+    right: .8rem;
+    top: 0;
+    bottom: 0;
+}
+#account-transfer-page2 .transfer2-mask,#account-transfer-page3 .transfer3-mask {
+    position: absolute;
+    width: 100%;
+    height: 1.2rem;
+    background: rgba(0,0,0,0);
+    z-index: 22;
+    top:0;
+}
+#account-transfer-page2 input::-webkit-input-placeholder{
+    color:#b8b8b8;
+}
+#account-transfer-page2 input::-moz-placeholder{
+    color:#b8b8b8;
+}
+#account-transfer-page2 input:-ms-input-placeholder{
+    color:#b8b8b8;
+}
+#account-transfer-page2 input::placeholder{
+    color:#b8b8b8;
+}
+        #select-his-receiver {
+            width: 100%;
+          
+        }
+        .his-box {
+            width: 9.2rem;
+            margin: 0 auto;
+        }
+        a.his-item {
+            display: block;
+            position: relative;
+            background: #fff;
+            margin-bottom: .2rem;
+            padding: .2rem .4rem;
+            border-radius: .0533333rem;
+        }
+        a.his-item div.his-item-box {
+            padding-bottom: .11rem;
+        }
+        a.his-item div.his-item-box .his-tel {
+            margin-left:.2rem;
+        }
+        a.his-item .his-toCompanyName {
+            color:#999;
+        }
+        a.his-item img{
+            position: absolute;
+            right: .4rem;
+            top: 50%;
+            margin-top: -.11rem;
+            width: .22rem;
+        }
+        .his-box .title a {
+            display: block;
+            padding: .2rem .1rem;
+            font-size:smaller;
+            color: #a8a8a8;
+        }
+        #account-transfer-Page4 .title {
+            height: .853333333rem;
+            color: #a8a8a8;
+            box-sizing: border-box;
+            padding-top: .32rem;
+            padding-left: .1rem;
+        }
+        .ftsize11 {
+            font-size: 11px;
+        }
+        [data-dpr="2"] .ftsize11 {
+            font-size: 22px;
+        }
+        [data-dpr="3"] .ftsize11 {
+            font-size: 33px;
+        }
+        #account-transfer-Page4 #search {
+            background-color: #fff;
+        }
+        #account-transfer-Page4 .search-input,#account-transfer-Page4 #search input.search-input-active {
+            background: #f6f6f8;
+        }
+        #account-transfer-Page4 .his-box {
+            height: calc(100% - 1.25rem);
+        }
+        #account-transfer-Page4 .receiver{
+            overflow: auto;
+            height: calc(100% - .854rem);
+        }
+        #search-none {
+            text-align: center;
+        }
+        #search-none img {
+            width: 2rem;
+            height: 2rem;
+            margin-top:3.73333333rem;
+            margin-bottom: .42666666rem;
+        }

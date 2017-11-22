@@ -1,0 +1,85 @@
+#accountDetailsPage{
+	background-color:#fff;
+	color:#333;
+}
+@media screen and (max-device-width: 350px) {
+	#accountDetailsPage .wrapper {
+		font-size:26px;
+	}
+}
+#accountDetailsPage .consume{
+	color:#f75c4c;
+}
+#accountDetailsPage .charge{
+	color:#4a90e2;
+}
+#accountDetailsPage .content{
+	height:calc(100% - 1.386666rem);
+	width:100%;
+	overflow-x:hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling : touch;
+}
+#accountDetailsPage .account{
+	width:100%;
+}
+#accountDetailsPage .row{
+	border-bottom:1px solid #c8c7cc;
+	line-height:1.1733333rem;
+}
+#accountDetailsPage div.row1{
+	line-height:1.04rem;
+	height: 1.04rem;
+	/*margin-bottom: 0.306666rem;*/
+	background-color:#f8f8f9;
+	color:#4A90E2;
+}
+#accountDetailsPage div.row img{
+	width:0.48rem;
+	vertical-align: middle;
+}
+#accountDetailsPage .row .col{
+	display: inline-block;
+	text-align: center;
+}
+#accountDetailsPage .row .col1{
+	width: 9%;
+	margin-left: 2%;
+}
+#accountDetailsPage .row .col2{
+	width: 28%;;
+}
+#accountDetailsPage .row .col3{
+	width: 20%;
+	margin-right: 2%;
+}
+#accountDetailsPage .row .col4{
+	width:35%;
+	white-space: nowrap;
+}
+#accountDetailsPage a.row .col2{
+	display: -webkit-inline-flex;
+	display: -inline-flex;
+	/* 09版 */
+	    -webkit-box-pack: center;  /*靠边均分*/
+	    -webkit-box-align:center;  /*垂直居中*/
+	    /* 12版 */
+	    -webkit-justify-content: center;
+	    justify-content: center;
+	    /* 12版 */
+	    -webkit-align-items: center;
+	    align-items: center;
+}
+#accountDetailsPage a.row .col2 img{
+	width: 0.40rem;
+	margin-left: 0.067rem;
+	vertical-align: middle;
+
+}
+#accountDetailsPage a.row {
+	display: block;
+}
+
+.hidden{
+	display: none;
+}

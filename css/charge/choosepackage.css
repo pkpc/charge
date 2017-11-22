@@ -1,0 +1,375 @@
+.flex-cont{
+    /*定义为flexbox的"父元素"*/
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: flex;
+}
+.flex-info-between{
+    -webkit-box-align: space-between;
+    -webkit-align-items: space-between;
+    justify-content:space-between;
+    width:100%;
+}
+#choosePackagePage .wrapper {
+	width:100%;
+	height:100%;
+}
+.packageNoticeNum{
+	float: left;
+	
+}
+.choosePackageNoticeLine{
+	margin-top: 0.10666666rem;
+	color:#999999;
+	letter-spacing: 0.01rem;
+}
+#choosePackagePage #content {
+    height: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    overflow: auto;
+}
+#choosePackagePage #overflowBox {
+	width:100%;
+}
+#choosePackagePage #packageForSale{
+	background-color:#fff;
+	width:100%;
+	height:1.1733333rem;
+	line-height:1.1733333rem;
+	margin-top: 0.3rem;
+}
+#choosePackagePage #employeeNum{
+	position: relative;
+	margin-bottom:0.65rem;
+	top:0.32rem;
+}
+#choosePackagePage div.title{
+	color:#030303;
+}
+#employeeNum div.fr, #choosePackagePage #packageForSale div.fr{
+	margin-right:0.7733333rem;
+	height:1.1733333rem;
+	line-height:1.1733333rem;
+}
+#employeeNum div.fl, #choosePackagePage #packageForSale div.fl{
+	margin-left:0.7733333rem;
+	height:1.1733333rem;
+	line-height:1.1733333rem;
+}
+#employeeNum div.fr{
+	color:#4a90e2;
+}
+#packageForSale div.fr{
+	color: #999;
+}
+#employeeNum div.fr img{
+	height:0.5866666rem;
+	width:0.82666666rem;
+	vertical-align: middle;
+}
+#employeeNum div.fr span{
+	margin:0 0.4266666rem;
+	vertical-align: middle;
+}
+#choosePackagePage .packageWrapper{
+	width:100%;
+	padding-left:0.7733333rem;
+	padding-right:0.7733333rem;
+	background-color: #fff;
+	top:0.32rem;
+}
+#choosePackagePage .packageWrapper ul li.available{
+	border:0.03rem solid #f39d12;
+	border-radius:0.10666rem;
+	height:1.6rem;
+	width:2.48rem;
+	float:left;
+	margin-right:0.5066666rem;
+	margin-top:0.373333rem;
+	display:table;
+
+}
+#choosePackagePage .packageWrapper ul li.disable{
+	border:0.03rem solid #a8a8a8;
+	border-radius:0.10666rem;
+	height:1.6rem;
+	width:2.48rem;
+	float:left;
+	margin-right:0.5066666rem;
+	margin-top:0.373333rem;
+	display:table;
+
+}
+#choosePackagePage .packageWrapper ul li:nth-child(3),#choosePackagePage .packageWrapper ul li:nth-child(6){
+	margin-right:0;
+}
+#choosePackagePage .packageWrapper ul li.active{
+	background-color: #FFCF4A;
+}
+#choosePackagePage .packageWrapper ul li.active div.up,#choosePackagePage .packageWrapper ul li.active div.down{
+	color: black!important;
+}
+#choosePackagePage .packageWrapper div.li-wrapper{
+	display: table-cell;
+	vertical-align: middle;
+}
+#choosePackagePage .packageWrapper div.li-wrapper div.up{
+	text-align: center;
+	padding-bottom: 0.2133333rem;
+	color: #f39d12;
+}
+#choosePackagePage .packageWrapper div.li-wrapper div.down{
+	text-align: center;
+	color: #a8a8a8;
+}
+#choosePackagePage .packageWrapper li.disable div.up,#choosePackagePage .packageWrapper li.disable div.down{
+	color: #a8a8a8!important;
+}
+#choosePackagePage .tube div.fl{
+	background:url("../../images/charge/tube-conversation.png") no-repeat;
+	background-size:cover;
+	width:6.42666666rem;
+	height:1.306666rem;
+}
+#choosePackagePage .tube div.laugh{
+	background:url("../../images/charge/tube.png") no-repeat;
+	background-size:cover;
+	width:1.73333rem;
+	height:1.3866666rem
+}
+#choosePackagePage .tube div.buling{
+	background:url("../../images/charge/bg_bulingbuling.png") no-repeat;
+	background-size:cover;
+	width:1.73333rem;
+	height:1.3866666rem
+}
+#choosePackagePage .final-money{
+	height:1.52rem;
+	line-height:1.52rem;
+	color:#999;
+	text-align:center;
+}
+#choosePackagePage #finalMoney{
+	color:#5aa3e8;
+}
+
+#choosePackagePage .triangle{
+	width:100%;
+	background: url("../../images/charge/triangles.png");
+	background-size:cover;
+	height:6px;
+}
+#choosePackagePage div.next-btn{
+	text-align: center;
+	height: 1.1733333rem;
+	line-height: 1.1733333rem;
+	margin-top: 1.3333333rem;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+#choosePackagePage div.active a {
+	display: block;
+	color: #fff;
+	width: 100%;
+	display: inline-block;
+	background: #4a90e2;
+	border-radius: 2px;
+}
+#choosePackagePage div.deactive a {
+	background: #999999;
+	display: block;
+	color: #fff;
+	width: 100%;
+	display: inline-block;
+	border-radius: 2px;
+}
+#choosePackagePage .tubeWrapper{
+	padding-top:0.85333333rem;
+	padding-bottom:.8rem;
+}
+#choosePackagePage hr.plus-recharge{
+	border-bottom:0;
+	border-top:1px dashed #D8D8D8;
+	width:100%;
+}
+#choosePackagePage .tube div.fl{
+	color:#777;
+	display: table;
+}
+
+#choosePackagePage .tube div.word-wrapper{
+	display:table-cell;
+	vertical-align: middle;
+	margin-left: 0.7466666rem;
+}
+#savehowmany,#disaccount{
+	color: red;
+	font-size: 0.4rem;
+}
+#talkingWordChosen,#talkingWordNone{
+	padding-left:0.47rem;
+	width: 100%;
+}
+#choosePackageNotice{
+	padding-left:0.47rem;
+	margin-top: 1.3333333rem;
+}
+.noticeWord{
+	padding-left:0.47rem;
+}
+#choosePackagePage .tube div.fl div.up{
+	padding-bottom:0.16rem;
+}
+#choosePackagePage div.final-money{
+	background-color:#fff;
+}
+#choosePackagePage .plus-page-mask{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	z-index: 9;
+}
+#choosePackagePage .plus-page-mask div.modal{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 7.2rem;
+	height: 5rem;
+	margin: -2.5rem 0 0 -3.6rem;
+	background: #fff;
+	border-radius: 8px;
+	text-align: center;
+	z-index: 11;
+	overflow: hidden;
+}
+#choosePackagePage .plus-page-mask div.modal .text1,.plus-page-mask div.modal .text2,.plus-page-mask div.modal .input-money{
+	width:100%;
+	color:#030303;
+}
+#choosePackagePage .plus-page-mask div.modal .text1{
+	padding-top: 0.56rem;
+	padding-bottom: 0.266666666rem;
+}
+
+#choosePackagePage .plus-page-mask div.modal .text2{
+	padding-bottom: 0.506666666rem;
+}
+
+#choosePackagePage .plus-page-mask div.modal .input-money input{
+	width: 6.32rem;
+	height: 0.64rem;
+	border: 1px solid #e2e2e2;
+	border-radius: 4px;
+}
+
+
+#choosePackagePage div.modal div.btn{
+	color: #4a90e2;
+}
+#choosePackagePage div.emp-num-btn{
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#choosePackagePage div.modal div.btn div.fl,div.modal div.btn div.fr{
+	height: 1.173333333rem;
+	line-height: 1.1733333333rem;
+	width: 50%;
+	border-top:1px solid #efefef;
+}
+#choosePackagePage div.modal div.btn div.fl{
+	border-right: 1px solid #efefef;
+}
+#choosePackagePage .grayA8{
+	color:#a8a8a8;
+}
+/**
+*提示框
+*/
+.cp-modal-window {
+       position: absolute;
+       top: 0;
+       bottom: -1rem;
+       left: 0;
+       right: 0;
+       width:7.2rem;
+       height: 3.86666rem;
+       margin: auto 1.333rem;
+       background: rgba(255, 255, 255, 2);
+       border-radius: 0.3rem;
+       z-index: 1;
+   }
+.cp-modal-header {
+       /*line-height: 1.17rem;*/
+    padding: 0.56rem 0 0.25rem 0;
+    text-align: center;
+    font-size: 17px;
+    /*border-bottom: 0.02rem solid #ccc;*/
+}
+[data-dpr='3'] .cp-modal-header {
+    font-size: 51px;
+}
+[data-dpr='2'] .cp-modal-header {
+    font-size: 34px;
+}
+[data-dpr='2'] .cp-modal-body {
+    height: 1.12rem;
+    line-height: 0.6rem;
+    box-sizing: border-box;
+}
+[data-dpr='3'] .cp-modal-body {
+    height: 1.12rem;
+    margin: 0 0.453rem 0.24rem;
+    line-height: 0.6rem;
+    box-sizing: border-box;
+}
+.cp-modal-body {
+    height: 1.12rem;
+    line-height: 0.6rem;
+    box-sizing: border-box;
+}
+.cp-modal-item {
+    display: inline-block;
+    height: 1.112rem;
+    width: 100%;
+    text-align: center;
+}
+.cp-modal-footer {
+    height: 1.2rem;
+    border-top: 0.02rem solid #ccc;
+    box-sizing: border-box;
+}
+a.cp-item-btn {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.333rem 0 0.347rem 0;
+}
+a.cp-item-btn + a.cp-item-btn {
+    border-left: 0.013rem solid #ccc;
+}
+[data-dpr='2'] a.cp-item-btn {
+    font-size: 32px;
+}
+
+[data-dpr='3'] a.cp-item-btn {
+    font-size: 48px;
+}
+a.cp-charge {
+    color: #f75c4c;
+}
+/**
+*提示框
+*/

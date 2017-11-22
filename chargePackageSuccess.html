@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/charge/packages.css">
+    <link rel="stylesheet" href="css/charge/reset2.css">
+    <script src="js/flexible.debug.js"></script>
+    <script src="js/jquery/jquery-1.8.3.min.js"></script>
+    <script src="js/mobilebone.js"></script>
+    <script src="js/fastclick.js" ></script>
+</head>
+<body>
+    <div class="flex_col_start">
+        <img src="images/charge/chargePackageSuccess.png" style="width:4.93rem;height: 2.8rem;margin-top: 1.84rem;">
+        <div class="mt_16 ftsize17 black7_color">恭喜您，充值成功</div>
+        <div class="mt_16 ftsize13">
+            <span id="timer" class="blue_color">9秒</span><span>后将自动返回</span>
+        </div>
+    </div>
+    <div class="pd_16 mt_50">
+        <a class="btn_a ftsize18 mt_50">返回</a>
+    </div>
+</body>
+<script>
+    var time = 9;
+    $(function () {
+        window.setInterval(function () {
+            if(time == 1){
+                location.href="";
+            }else if(time >1){
+                time--;
+                $('#timer').text(time+"秒");
+            }
+        },1000)
+    })
+</script>
+</html>

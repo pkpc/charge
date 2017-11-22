@@ -1,0 +1,274 @@
+#contactsPage #search{
+	position: relative;
+	width: 100%;
+	padding: 0.2rem 0.16rem 0.25rem  0.16rem;
+	box-sizing: border-box;
+	border-bottom:1px solid #efefef;
+}
+#contactsPage #search img {
+	width:0.3466666rem;
+	height:0.3466666rem;
+	position:absolute;
+}
+
+#contactsPage #search .search-input{
+	display: block;
+	top: 0.16rem;
+	color: #333;
+	box-sizing: border-box;
+	background-color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	height: 0.8rem;
+	vertical-align: middle;
+	border-radius: 2px;
+	border:0;
+}
+#contactsPage #search div.icon-box{
+	height: 0.8rem;
+	position: absolute;
+	width: 100%;
+	line-height: 0.8rem;
+	text-align: center;
+	top: 0.2rem;
+	left: 0;
+}
+#contactsPage #search div.icon-box-active {
+	height: 0.8rem;
+	position: absolute;
+	line-height: 0.8rem;
+	padding-left: 0.4rem;
+	top: 0.2rem;
+	left: 0;
+	width:0;
+}
+#contactsPage #search input.search-input-active{
+	display: block;
+	top: 0.16rem;
+	color: #333;
+	background-color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	height: 0.8rem;
+	vertical-align: middle;
+	border:1px solid #efefef;
+	border-radius: 4px;
+	padding-left: 0.8266666666rem;
+}
+
+
+#contactsPage hr.contacts{
+	width:100%;
+	border-top:1px solid #efefef;
+	border-bottom:0px;
+	margin-top:0.373333rem;
+}
+#contactsPage #ceo hr.contacts, #contactsPage .person hr.contacts, #contactsPage .department hr.contacts{
+	position: relative;
+	z-index: 1;
+	margin-top:0px;
+}
+#contactsPage .person hr{
+	margin-left:0.77333333rem;
+}
+#contactsPage #ceo hr{
+	padding-left:0.4rem;
+}
+
+#contactsPage .department hr{
+	margin-left:0.533333rem;
+}
+
+
+#contactsPage #head{
+	position:relative;
+}
+#contactsPage div.title{
+	margin-left:0.4rem;
+	color:#333;
+	height:1.0666666rem;
+	line-height:1.06666rem;
+}
+#contactsPage #allOpen{
+	color: #3a87e0;
+	height:1.0666666rem;
+	line-height:1.06666rem;
+	margin-right:0.3733333rem;
+}
+#contactsPage div.department{
+	position: relative;
+	line-height:1.2rem;
+}
+#contactsPage div.person{
+	position: relative;
+	height:calc(1.1733333rem + 1px);
+	line-height:1.1733333rem;
+}
+#contactsPage div.person-detail{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-left:1.7066666rem;
+}
+#contactsPage div.photo{
+	margin-left:0.4rem;
+	height:0.8rem;
+	width:0.8rem;
+	border-radius:0.8rem;
+	overflow: hidden;
+}
+
+#contactsPage div.checked {
+	width: 100%;
+	height: 100%;
+	line-height: 0.8rem;
+	position: absolute;
+	right: 0.3733333rem;
+	top: 0;
+	text-align: right;
+}
+#contactsPage div.checked img{
+	width:16px;
+	vertical-align: middle;
+	position: relative;
+	top: 0.2rem;
+}
+[data-dpr="2"] #contactsPage div.checked img {
+	width:36px;
+}
+[data-dpr="3"] #contactsPage div.checked img {
+	width:54px;
+}
+#contactsPage div.department,#contactsPage div.person{
+	background-color: #fff;
+}
+#contactsPage .department a.checked{
+	top:0.4933333rem;
+	/*39px*/
+}
+#contactsPage div.person a.checked{
+	top: 0.4133333rem;
+	/*31px*/
+}
+#contactsPage .department-box{
+	padding-left:.3rem;
+}
+#contactsPage .department .department-icon{
+	display:inline-block;
+	margin-left:0.6rem;
+	vertical-align:middle;
+	width:0.2133333rem;
+}
+
+#contactsPage .person .photo{
+	display: inline-block;
+	border-radius:100%;
+	height:0.8rem;
+	width:0.8rem;
+	margin-left:0.64rem;
+	vertical-align:middle;
+}
+#contactsPage .person span.position{
+	margin-left:.2rem;
+}
+#contactsPage .department-detail{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-left: 1.08rem;
+}
+#contactsPage #ceo .photo{
+	margin-left:0.4rem;
+}
+#contactsPage #ceo .person-detail{
+	padding-left:1.466666rem
+}
+#contactsPage .icon-search{
+	display: inline-block;
+	width: 0.34666666rem;
+	height: .34666666rem;
+	margin-right: 6px;
+	background: url("../../images/charge/search-icon.png") no-repeat;
+	vertical-align: middle;
+	background-size: cover;
+}
+#contactsPage .content{
+	width:100%;
+	height:calc(100% - 3.613333333rem);
+	overflow-x:hidden;
+	overflow-y: scroll;
+	background-color:#fff;
+	-webkit-overflow-scrolling: touch;
+}
+#contactsPage #footer {
+	background: #fff;
+	width: 100%;
+	height: 1.3333333rem;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #efefef;
+	display: table;
+	z-index:11;
+}
+#contactsPage #footer .box{
+	padding:0 0.4rem;
+	display: table-cell;
+	vertical-align: middle;
+}
+#contactsPage span.selected-word{
+	color:#000;
+}
+
+#contactsPage #add-admin{
+	float: right;
+	background-color: #4a90e2;
+	display: inline-block;
+	width: 1.3333333rem;
+	height: 0.666667rem;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+	line-height:0.666667rem;
+}
+#contactsPage .icon-box-wrapper{
+	margin:0 0.16rem;
+	border-radius: 4px;
+	background: #fff;
+}
+
+#contactsPage .department,div.checked{
+	cursor:pointer;
+}
+#contactsPage .modal-success{
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2.9866666666rem;
+	height: 1.43999999999rem;
+	line-height: 1.43999999rem;
+	margin: -.74666666rem 0 0 -1.4933333rem;
+	background: rgba(0,0,0,.7);
+	border-radius: 8px;
+	text-align: center;
+	z-index: 11;
+	color:#fff;
+}
+#contactsPage .department-box-height {
+	display:none;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#contactsPage .person-name.ftsize14{
+	font-size: 14px!important;
+}
+[data-dpr='2'] #contactsPage .person-name.ftsize14{
+	font-size: 28px!important;
+}
+[data-dpr='3'] #contactsPage .person-name.ftsize14{
+	font-size: 42px!important;
+}
