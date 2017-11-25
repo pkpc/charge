@@ -229,8 +229,10 @@
         $("#plusCoinSpended").text(toThousands(cd[2])+"个");
     }
 	var retParam = "mptoken="+mptoken+"&ftoken="+ftoken+"&isAdmin="+isAdmin+"&isxigu="+isxigu+"&plusCoinReward="+plusCoinReward+"&companyName="+companyName+"&userName="+userName;
-	$(".return-btn a").attr("href","/charge/index.html?"+retParam);
-	$(".timer a").attr("href","/charge/index.html?"+retParam);
+	<%--$(".return-btn a").attr("href","/charge/index.html?"+retParam);--%>
+	$(".return-btn a").attr("href","/charge/index.html?returnHome");
+	<%--$(".timer a").attr("href","/charge/index.html?"+retParam);--%>
+	$(".timer a").attr("href","/charge/index.html?returnHome");
 	<%--$("#activeNow").attr("href","/charge/index.html?"+retParam+"#&/charge/activepackage.html");--%>
     var int=self.setInterval("timer()",1000);
     window.onload = function(){
@@ -266,7 +268,8 @@
         document.getElementById("timerNum").innerHTML=t;
         if(t==1){
             int=window.clearInterval(int);
-            window.location.href = "/charge/index.html?"+retParam+"#&account-system";
+            <%--window.location.href = "/charge/index.html?"+retParam+"#&account-system";--%>
+            window.location.href = "/charge/index.html?returnHome";
         }
     }
   	//读cookies
